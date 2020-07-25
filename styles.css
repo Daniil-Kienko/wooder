@@ -329,7 +329,7 @@ body {
 }
 
 .main-img-left {
-  background-image: url("/img/left.png");
+  background-image: url("./img/left.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -337,7 +337,7 @@ body {
 }
 
 .main-img-right {
-  background-image: url("/img/right.png");
+  background-image: url("./img/right.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -883,7 +883,7 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-  background: url(img/bg.jpg);
+  background: url("./img/bg.jpg");
   background-size: cover;
   background-position: 50% 65%;
   opacity: 0.1;
@@ -908,13 +908,13 @@ body {
   z-index: -1;
   width: 52%;
   height: 95%;
-  background: url(img/play.png);
+  background: url("./img/play.png");
   background-repeat: no-repeat;
 }
 
 .footer {
   position: relative;
-  background: url(img/footer-bg.png);
+  background: url("./img/footer-bg.png");
 }
 
 .footer-content-wrapper {
