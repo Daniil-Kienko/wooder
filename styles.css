@@ -315,6 +315,7 @@ body {
 }
 
 .main {
+  position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 55% 100%, 55% 96%, 0 96%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 55% 100%, 55% 96%, 0 96%);
   height: 105vh;
@@ -1245,6 +1246,9 @@ body {
 }
 
 @media screen and (max-width: 710px) {
+  .main {
+    height: 80vh;
+  }
   .section-main-content-wrapper {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -1266,6 +1270,9 @@ body {
   .section-secondary-right {
     width: 45%;
     margin-left: 0;
+  }
+  .section-video {
+    height: 80vh;
   }
 }
 
