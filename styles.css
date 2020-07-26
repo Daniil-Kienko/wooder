@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Proxima Nova';
-  src: url("/fonts/ProximaNova-Regular.woff2") format("woff2"), url("/fonts/ProximaNova-Regular.woff") format("woff"), url("/fonts/ProximaNova-Regular.ttf") format("truetype"), url("/fonts/ProximaNova-Regular.eot?") format("eot");
+  src: url("./fonts/ProximaNova-Regular.woff2") format("woff2"), url("./fonts/ProximaNova-Regular.woff") format("woff"), url("./fonts/ProximaNova-Regular.ttf") format("truetype"), url("./fonts/ProximaNova-Regular.eot?") format("eot");
 }
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url("/fonts/ProximaNova-Bold.woff2") format("woff2"), url("/fonts/ProximaNova-Bold.woff") format("woff"), url("/fonts/ProximaNova-Bold.ttf") format("truetype"), url("/fonts/ProximaNova-Bold.eot?") format("eot");
+  src: url("./fonts/ProximaNova-Bold.woff2") format("woff2"), url("./fonts/ProximaNova-Bold.woff") format("woff"), url("./fonts/ProximaNova-Bold.ttf") format("truetype"), url("./fonts/ProximaNova-Bold.eot?") format("eot");
   font-weight: 700;
 }
 
@@ -747,6 +747,9 @@ body {
 
 .section-videos-block-circle {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 14px;
   margin-bottom: 24px;
   border: 1px solid #e1e1e1;
@@ -788,6 +791,16 @@ body {
 .section-videos-block-text {
   font-family: 'Proxima Nova', sans-serif;
   letter-spacing: 0.4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .section-videos-block-text::before {
@@ -796,8 +809,6 @@ body {
   width: 25px;
   height: 1px;
   background-color: #bea67c;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 18px;
 }
 
