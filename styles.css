@@ -1572,5 +1572,8 @@ body {
   .main-scroll {
     display: none;
   }
+  .main-circles {
+    padding-top: 30px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
